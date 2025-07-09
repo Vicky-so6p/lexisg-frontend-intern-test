@@ -1,0 +1,14 @@
+
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+/* Hide Scroll Bar */
+html { scrollbar-width: none; }
+html::-webkit-scrollbar { display: none; };
